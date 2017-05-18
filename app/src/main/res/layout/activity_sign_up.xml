@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="userInfo"
+            type="com.example.r3l0ad3d.tourmate.ModelClass.UserInformation"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.r3l0ad3d.tourmate.SignUpActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etFullNameSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fullName"/>
+                <!--<android.support.design.widget.TextInputEditText
+                    android:id="@+id/etUserNameSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/userName"/>-->
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etEmailSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/eMail"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etPasswordSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/passWord"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etConfirmPasswordSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/confirmPassword"/>
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signUp"
+                    android:layout_gravity="center"
+                    android:onClick="signUpBtn"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</layout>

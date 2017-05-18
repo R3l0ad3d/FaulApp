@@ -1,0 +1,191 @@
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.r3l0ad3d.tourmate.Fragments.ProfileFragment">
+
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/userId"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvUserIdProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/fullName"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvFullNameProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="JOy"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/userName"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvUserNameProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="JOy"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/gender"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvGenderProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="male"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/dateOfBirth"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvDateOfBirthProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="16-05-1994"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/eMail"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvEmailProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="joy@gmail.com"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/mobileNo"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvMobileNoProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="01744000000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/area"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvAreaProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="Dhaka"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnEditProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editProfile"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</layout>
